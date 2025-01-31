@@ -4,12 +4,29 @@
 
 ### Truth Table
 
-Insert your truth table here
+| Months | A | B | C | D | Y |
+|--------|---|---|---|---|---|
+| 0      | 0 | 0 | 0 | 0 | x |
+| Jan    | 0 | 0 | 0 | 1 | 1 |
+| Feb    | 0 | 0 | 1 | 0 | 0 |
+| Mar    | 0 | 0 | 1 | 1 | 1 |
+| Apr    | 0 | 1 | 0 | 0 | 0 |
+| May    | 0 | 1 | 0 | 1 | 1 |
+| Jun    | 0 | 1 | 1 | 0 | 0 |
+| Jul    | 0 | 1 | 1 | 1 | 1 |
+| Aug    | 1 | 0 | 0 | 0 | 1 |
+| Sep    | 1 | 0 | 0 | 1 | 0 |
+| Oct    | 1 | 0 | 1 | 0 | 1 |
+| Nov    | 1 | 0 | 1 | 1 | 0 |
+| Dec    | 1 | 1 | 0 | 0 | 1 |
+| Null   | 1 | 1 | 0 | 1 | x |
+| Null   | 1 | 1 | 1 | 0 | x |
+| Null   | 1 | 1 | 1 | 1 | x |
 
 ### Boolean Equation
 
 $$
-Y = ?
+Y = A'D + AD'
 $$
 
 ### Digital Simulations
@@ -27,18 +44,3 @@ You may also wish to run test cases.  The first two rows of the truth table have
 3. Push to GitHub
 4. Submit to Gradescope
 5. Verify submission
-| Months | A | B | C | D | Y |
-|--------|---|---|---|---|---|
-| 0      | 0 | 0 | 0 | 0 | x |
-| Jan    | 0 | 0 | 0 | 1 | 1 |
-| Feb    | 0 | 0 | 1 | 0 | 0 |
-| Mar    | 0 | 0 | 1 | 1 | 1 |
-| Apr    | 0 | 1 | 0 | 0 | 0 |
-| May    | 0 | 1 | 0 | 1 | 1 |
-| Jun    | 0 | 1 | 1 | 0 | 0 |
-| Jul    | 0 | 1 | 1 | 1 | 1 |
-| Aug    | 1 | 0 | 0 | 0 | 1 |
-| Sep    | 1 | 0 | 0 | 1 | 0 |
-| Oct    | 1 | 0 | 1 | 0 | 1 |
-| Nov    | 1 | 0 | 1 | 1 | 0 |
-| Dec    | 1 | 1 | 0 | 0 | 1 |
