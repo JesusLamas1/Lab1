@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Mar 10 20:34:51 2024
+# Process ID: 14524
+# Current directory: C:/Users/Jesus.Lamas/Desktop/ECE281/ece281-lab1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26884 C:\Users\Jesus.Lamas\Desktop\ECE281\ece281-lab1\thirtyoneday.xpr
+# Log file: C:/Users/Jesus.Lamas/Desktop/ECE281/ece281-lab1/vivado.log
+# Journal file: C:/Users/Jesus.Lamas/Desktop/ECE281/ece281-lab1\vivado.jou
+#-----------------------------------------------------------
+start_guopopen_project C:/Users/Jesus.Lamas/Desktop/ECE281/ece281-lab1/thirtyoneday.xpupdate_compile_order -fileset sources_1
+1
+launch_simulation
+source thirtyOneDayMonth_tb.tcl
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+save_wave_config {C:/Users/Jesus.Lamas/Desktop/ECE281/ece281-lab1/thirtyOneDayMonth_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/Jesus.Lamas/Desktop/ECE281/ece281-lab1/thirtyOneDayMonth_tb_behav.wcfg
+set_property xsim.view C:/Users/Jesus.Lamas/Desktop/ECE281/ece281-lab1/thirtyOneDayMonth_tb_behav.wcfg [get_filesets sim_1]
+close_sim

@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"thirtyOneDayMonth_tb_func_impl.vhd" \
+"../../../../../src/hdl/thirtyOneDayMonth_tb.vhd" \
+
+# Do not sort compile order
+nosort
